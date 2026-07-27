@@ -51,7 +51,7 @@ body{
         0 0 10px #ff003c,
         0 0 25px #ff003c,
         0 0 50px #ff335f;
-    animation:glitch 4s infinite;
+    animation:glitch 1.5s infinite;
 }
 
 .logo::before,
@@ -70,7 +70,7 @@ body{
     left:2px;
     opacity:.7;
     clip-path:inset(0 0 55% 0);
-    animation:glitchTop 3s infinite;
+    animation:glitchTop 1.5s infinite;
 }
 
 .logo::after{
@@ -78,7 +78,7 @@ body{
     left:-2px;
     opacity:.7;
     clip-path:inset(55% 0 0 0);
-    animation:glitchBottom 3s infinite;
+    animation:glitchBottom 1.5s infinite;
 }
 
 .loading{
