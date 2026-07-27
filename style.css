@@ -112,8 +112,8 @@ body{
     93%{
         transform:translate(-2px,1px);
         text-shadow:
-            -3px 0 #00ffff,
-            3px 0 #ff003c,
+            -2px 0 #8b0000,
+            2px 0 #ff5a00,
             0 0 20px #ff003c;
     }
 
