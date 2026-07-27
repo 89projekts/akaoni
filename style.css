@@ -1,6 +1,6 @@
 /* ===========================================================
-   AKAONI PROJECT
-   UNIT 89
+   AKAONI
+   89 Projekts
    STYLE.CSS
 =========================================================== */
 
@@ -199,7 +199,7 @@ transition:.3s;
 
 .box span:hover{
 
-color:white;
+color:red;
 
 }
 
