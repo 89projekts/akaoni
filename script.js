@@ -140,9 +140,9 @@ console.log("");
 
 console.log("================================");
 
-console.log(" AKAONI PROJECT");
+console.log(" AKAONI ");
 
-console.log(" UNIT 89");
+console.log("89 PROJEKT");
 
 console.log(" Toyota GR Yaris Gen2");
 
