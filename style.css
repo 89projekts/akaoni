@@ -21,7 +21,7 @@ justify-content:center;
 align-items:center;
 z-index:10;
 
-animation:boot 3s forwards;
+animation:boot 2s forwards;
 
 }
 
@@ -29,7 +29,7 @@ animation:boot 3s forwards;
 .logo {
 
 font-size:80px;
-color:solid red;
+color:#ff3300;
 text-shadow:0 0 25px red;
 
 }
@@ -71,7 +71,7 @@ padding:40px 20px;
 h1 {
 
 font-size:60px;
-color:solid red;
+color:#ff3300;
 letter-spacing:10px;
 
 }
@@ -81,7 +81,7 @@ nav button {
 
 background:black;
 border:1px solid red;
-color:solid red;
+color:#ff3300;
 padding:15px;
 margin:5px;
 
@@ -109,7 +109,7 @@ rgba(0,0,0,.9)
 .hero h2 {
 
 font-size:70px;
-color:solid red;
+color:#ff3300;
 
 }
 
@@ -137,7 +137,7 @@ align-items:center;
 .box {
 
 background:#111;
-border:1px solid red;
+border:1px #ff3300;
 padding:30px;
 width:80%;
 
@@ -148,6 +148,6 @@ width:80%;
 
 float:right;
 font-size:30px;
-color:solid red;
+color:#ff3300;
 
 }
