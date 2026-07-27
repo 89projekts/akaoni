@@ -41,14 +41,17 @@ body{
 }
 
 .logo{
+    position:relative;
+    display:inline-block;
     font-size:90px;
     font-weight:bold;
-    color:var(--red);
+    color:#ff003c;
     letter-spacing:8px;
     text-shadow:
-        0 0 10px var(--red),
-        0 0 25px var(--red),
-        0 0 50px var(--red2);
+        0 0 10px #ff003c,
+        0 0 25px #ff003c,
+        0 0 50px #ff335f;
+    animation:glitch 4s infinite;
 }
 
 .loading{
@@ -62,7 +65,40 @@ body{
     100%{
         opacity:0;
         visibility:hidden;
-    }
+}
+
+@keyframes glitch{
+
+0%,92%,100%{
+    transform:translate(0);
+    text-shadow:
+        0 0 10px #ff003c,
+        0 0 25px #ff003c,
+        0 0 50px #ff335f;
+}
+
+93%{
+    transform:translate(-2px,1px);
+    text-shadow:
+        -3px 0 #00ffff,
+        3px 0 #ff003c,
+        0 0 20px #ff003c;
+}
+
+94%{
+    transform:translate(2px,-1px);
+}
+
+95%{
+    transform:translate(-1px,2px);
+}
+
+96%{
+    transform:translate(1px,-2px);
+}
+
+97%{
+    transform:translate(0);
 }
 
 /* Header */
