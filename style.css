@@ -261,7 +261,9 @@ nav button:hover{
     box-shadow:
         0 0 25px rgba(255,0,60,.45),
         inset 0 0 20px rgba(255,0,60,.08);
-}.box p{
+}
+
+.box p{
     font-family:Arial,sans-serif;
     text-align:left;
     line-height:1.7;
