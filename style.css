@@ -29,7 +29,7 @@ animation:boot 3s forwards;
 .logo {
 
 font-size:80px;
-color:red;
+color:solid red;
 text-shadow:0 0 25px red;
 
 }
@@ -71,7 +71,7 @@ padding:40px 20px;
 h1 {
 
 font-size:60px;
-color:red;
+color:solid red;
 letter-spacing:10px;
 
 }
@@ -81,7 +81,7 @@ nav button {
 
 background:black;
 border:1px solid red;
-color:white;
+color:solid red;
 padding:15px;
 margin:5px;
 
@@ -109,7 +109,7 @@ rgba(0,0,0,.9)
 .hero h2 {
 
 font-size:70px;
-color:red;
+color:solid red;
 
 }
 
@@ -148,6 +148,6 @@ width:80%;
 
 float:right;
 font-size:30px;
-color:red;
+color:solid red;
 
 }
