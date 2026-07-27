@@ -1,279 +1,153 @@
-/* ===========================================================
-   AKAONI
-   89 Projekts
-   STYLE.CSS
-=========================================================== */
+body {
 
-*{
 margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-body{
-
 background:#050505;
-color:#ffffff;
-
-font-family:'Orbitron',sans-serif;
-
-overflow-x:hidden;
-
+color:#fff;
+font-family:Arial, sans-serif;
 text-align:center;
 
 }
 
-/* ===========================
-BOOT SCREEN
-=========================== */
 
-#boot{
+#boot {
 
 position:fixed;
-
-top:0;
-left:0;
-
 width:100%;
 height:100vh;
-
-background:#000;
-
+background:black;
 display:flex;
-
 flex-direction:column;
-
 justify-content:center;
 align-items:center;
+z-index:10;
 
-z-index:9999;
-
-animation:bootFade 3s forwards;
-
-}
-
-.logo{
-
-font-size:90px;
-
-font-weight:800;
-
-color:#ff2020;
-
-text-shadow:
-
-0 0 10px red,
-0 0 25px red,
-0 0 45px red,
-0 0 70px red;
-
-animation:pulse 2s infinite;
+animation:boot 3s forwards;
 
 }
 
-.loading{
 
-margin-top:30px;
+.logo {
 
-font-size:14px;
-
-letter-spacing:4px;
-
-color:#bbbbbb;
+font-size:80px;
+color:red;
+text-shadow:0 0 25px red;
 
 }
 
-@keyframes pulse{
 
-0%{
+.loading {
 
-text-shadow:
-0 0 10px red,
-0 0 20px red;
+margin-top:20px;
+color:#ff3300;
 
 }
 
-50%{
 
-text-shadow:
-0 0 20px red,
-0 0 50px red,
-0 0 90px red;
 
-}
+@keyframes boot {
 
-100%{
+0% {opacity:1;}
 
-text-shadow:
-0 0 10px red,
-0 0 20px red;
+80% {opacity:1;}
 
-}
-
-}
-
-@key
-/* ===========================
-POPUPS
-=========================== */
-
-.popup{
-
-display:none;
-
-position:fixed;
-
-top:0;
-left:0;
-
-width:100%;
-height:100%;
-
-background:rgba(0,0,0,.92);
-
-justify-content:center;
-align-items:center;
-
-z-index:999;
-
-padding:20px;
-
-}
-
-.box{
-
-background:#101010;
-
-border:1px solid #ff2020;
-
-border-radius:12px;
-
-padding:35px;
-
-width:100%;
-
-max-width:480px;
-
-box-shadow:
-0 0 20px rgba(255,0,0,.35);
-
-animation:popupOpen .25s ease;
-
-}
-
-@keyframes popupOpen{
-
-from{
+100% {
 
 opacity:0;
-transform:scale(.95);
-
-}
-
-to{
-
-opacity:1;
-transform:scale(1);
+visibility:hidden;
 
 }
 
 }
 
-.box span{
 
-float:right;
 
-font-size:34px;
+header {
 
-cursor:pointer;
-
-color:#ff2020;
-
-transition:.3s;
+padding:40px 20px;
 
 }
 
-.box span:hover{
 
+h1 {
+
+font-size:60px;
+color:red;
+letter-spacing:10px;
+
+}
+
+
+nav button {
+
+background:black;
+border:1px solid red;
+color:white;
+padding:15px;
+margin:5px;
+
+}
+
+
+.hero {
+
+height:400px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.9)
+);
+
+}
+
+
+.hero h2 {
+
+font-size:70px;
 color:red;
 
 }
 
-.box h2{
 
-margin-bottom:25px;
 
-letter-spacing:3px;
+.popup {
 
-color:#ff2020;
+display:none;
 
-}
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
 
-.box p{
+background:rgba(0,0,0,.9);
 
-line-height:2;
-
-font-size:15px;
-
-color:#dddddd;
-
-}
-
-/* ===========================
-FOOTER
-=========================== */
-
-footer{
-
-padding:50px 20px;
-
-border-top:1px solid #300;
-
-background:#080808;
+justify-content:center;
+align-items:center;
 
 }
 
-footer p{
 
-font-size:13px;
 
-letter-spacing:4px;
+.box {
 
-color:#777777;
-
-line-height:1.8;
-
-}
-
-/* ===========================
-SCROLLBAR
-=========================== */
-
-::-webkit-scrollbar{
-
-width:8px;
+background:#111;
+border:1px solid red;
+padding:30px;
+width:80%;
 
 }
 
-::-webkit-scrollbar-track{
 
-background:#050505;
+.box span {
 
-}
-
-::-webkit-scrollbar-thumb{
-
-background:#ff2020;
-
-border-radius:10px;
+float:right;
+font-size:30px;
+color:red;
 
 }
-
-::-webkit-scrollbar-thumb
-
-}
-
