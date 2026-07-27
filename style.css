@@ -52,6 +52,31 @@ body{
         0 0 25px #ff003c,
         0 0 50px #ff335f;
     animation:glitch 4s infinite;
+.logo::before,
+.logo::after{
+    content:attr(data-text);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    overflow:hidden;
+    pointer-events:none;
+}
+
+.logo::before{
+    color:#00ffff;
+    left:2px;
+    opacity:.7;
+    clip-path:inset(0 0 55% 0);
+    animation:glitchTop 3s infinite;
+}
+
+.logo::after{
+    color:#ff003c;
+    left:-2px;
+    opacity:.7;
+    clip-path:inset(55% 0 0 0);
+    animation:glitchBottom 3s infinite;
 }
 
 .loading{
