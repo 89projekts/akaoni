@@ -1,35 +1,293 @@
+/* ===========================
+   AKAONI OFFICIAL THEME
+===========================*/
+
 :root{
+--bg:#050505;
+--panel:#111;
+--panel2:#1a1a1a;
+--white:#fff;
+--gray:#bfbfbf;
+--red:#ff0000;
+--red2:#b30000;
+--orange:#ff6a00;
+}
 
-    /* Background */
-    --bg:#050505;
-    --bg2:#0d0d0d;
-    --panel:#111111;
-    --panel2:#181818;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
 
-    /* Main */
-    --white:#ffffff;
-    --black:#050505;
+body{
+background:linear-gradient(180deg,#050505,#0d0d0d);
+color:var(--white);
+font-family:Arial,sans-serif;
+overflow-x:hidden;
+}
 
-    /* AKAONI Red */
-    --red:#b00000;
-    --red-dark:#b00000;
-    --red-light:#b00000;
+/* Boot */
 
-    /* Accent (sparsam einsetzen) */
-    --orange:#ff6a00;
+#boot{
+position:fixed;
+inset:0;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:#000;
+z-index:9999;
+animation:boot 2.5s forwards;
+}
 
-    /* Text */
-    --text:#ffffff;
-    --text-soft:#d8d8d8;
-    --text-muted:#9a9a9a;
+.logo{
+font-size:90px;
+font-weight:bold;
+letter-spacing:8px;
+color:var(--white);
+text-shadow:
+0 0 10px #fff,
+0 0 25px var(--red),
+0 0 45px var(--red);
+animation:glitch 2s infinite;
+}
 
-    /* Borders */
-    --border:#ff0000;
+.loading{
+margin-top:20px;
+color:var(--white);
+letter-spacing:4px;
+}
 
-    /* Glow */
-    --red-glow:0 0 8px rgba(255,0,0,.55),
-               0 0 20px rgba(255,0,0,.35);
+@keyframes boot{
+80%{opacity:1;}
+100%{opacity:0;visibility:hidden;}
+}
 
-    --orange-glow:0 0 8px rgba(255,106,0,.35);
+@keyframes glitch{
+0%,100%{transform:none;}
+94%{transform:translate(-2px,2px);}
+95%{transform:translate(2px,-2px);}
+96%{transform:translate(-1px,1px);}
+97%{transform:none;}
+}
+
+/* Header */
+
+header{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+padding:30px;
+z-index:50;
+}
+
+h1{
+font-size:56px;
+color:#fff;
+letter-spacing:8px;
+text-shadow:0 0 20px var(--red);
+}
+
+/* Navigation */
+
+nav{
+margin-top:25px;
+}
+
+nav button{
+padding:14px 26px;
+margin:8px;
+background:var(--panel);
+color:#fff;
+border:2px solid var(--red);
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+}
+
+nav button:hover{
+background:var(--red);
+box-shadow:
+0 0 15px var(--red),
+0 0 25px rgba(255,106,0,.25);
+transform:translateY(-3px);
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.8)),
+url(hero-bg.png) center/cover;
+}
+
+.hero h2{
+font-size:72px;
+color:#fff;
+text-shadow:
+0 0 12px #fff,
+0 0 35px var(--red);
+}
+
+.hero p{
+margin-top:20px;
+font-size:20px;
+color:var(--gray);
+}
+
+/* Cards */
+
+.card{
+width:min(90%,900px);
+margin:30px auto;
+padding:25px;
+background:var(--panel);
+border:2px solid var(--red);
+border-radius:18px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:
+0 0 20px var(--red),
+0 0 40px rgba(255,0,0,.25);
+}
+
+/* Popup */
+
+.popup{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.9);
+justify-content:center;
+align-items:center;
+backdrop-filter:blur(8px);
+}
+
+.box{
+width:min(90%,650px);
+background:var(--panel2);
+padding:35px;
+border:2px solid var(--red);
+border-radius:20px;
+box-shadow:0 0 30px rgba(255,0,0,.35);
+}
+
+.box span{
+float:right;
+font-size:30px;
+cursor:pointer;
+color:#fff;
+transition:.3s;
+}
+
+.box span:hover{
+color:var(--orange);
+transform:rotate(90deg);
+}
+
+/* Links */
+
+a{
+color:#fff;
+text-decoration:none;
+transition:.3s;
+}
+
+a:hover{
+color:var(--red);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+width:10px;
+}
+
+::-webkit-scrollbar-track{
+background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+background:var(--red);
+border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:var(--red2);
+}
+
+/* Sections */
+
+section{
+padding:100px 20px;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+button{
+font-size:15px;
+}
+
+/* Footer */
+
+footer{
+padding:40px;
+background:#090909;
+border-top:2px solid var(--red);
+color:var(--gray);
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.logo{
+font-size:60px;
+}
+
+h1{
+font-size:38px;
+}
+
+.hero h2{
+font-size:46px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+nav{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+nav button{
+width:90%;
+max-width:320px;
+}
+
+.card{
+padding:20px;
+}
+
+section{
+padding:70px 15px;
+}
 
 }
