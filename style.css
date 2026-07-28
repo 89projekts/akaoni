@@ -110,15 +110,28 @@ transform:translateY(-3px);
 /* Hero */
 
 .hero{
+
 height:100vh;
+width:100%;
+
 display:flex;
-flex-direction:center;
 justify-content:center;
 align-items:center;
-text-align:center;
-background:
-linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.8)),
-url(hero-bg.png) center/cover;
+
+position:relative;
+
+background-image:
+linear-gradient(
+rgba(0,0,0,.55),
+rgba(0,0,0,.85)
+),
+url("hero-bg.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+overflow:hidden;
 }
 
 .hero h2{
