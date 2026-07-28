@@ -64,14 +64,6 @@ letter-spacing:4px;
 100%{opacity:0;visibility:hidden;}
 }
 
-@keyframes glitch{
-0%,100%{transform:none;}
-94%{transform:translate(-2px,2px);}
-95%{transform:translate(2px,-2px);}
-96%{transform:translate(-1px,1px);}
-97%{transform:none;}
-}
-
 /* Header */
 
 header{
@@ -140,7 +132,7 @@ text-shadow:
 .hero p{
 margin-top:20px;
 font-size:20px;
-color:var(--gray);
+color:var(--white);
 }
 
 /* Cards */
@@ -248,7 +240,7 @@ footer{
 padding:40px;
 background:#090909;
 border-top:2px solid var(--red);
-color:var(--gray);
+color:var(--white);
 }
 
 /* Responsive */
@@ -273,7 +265,7 @@ font-size:18px;
 
 nav{
 display:flex;
-flex-direction:column;
+flex-direction:center;
 align-items:center;
 }
 
