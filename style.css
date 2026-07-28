@@ -241,7 +241,7 @@ nav button:hover{
             rgba(0,0,0,.25),
             rgba(0,0,0,.70)
         ),
-        url("hero-bg.webp");
+        url("hero-bg.png");
 
     background-size:cover;
     background-position:center center;
