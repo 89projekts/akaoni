@@ -1,20 +1,87 @@
 /* ===== AKAONI THEME ===== */
 
+:root{/* ======================================================
+   AKAONI OFFICIAL COLOR PALETTE
+   Black • White • Red
+   Orange only for tiny accent glows
+====================================================== */
+
 :root{
+    /* Backgrounds */
     --bg: #050505;
+    --bg2: #0b0b0b;
     --panel: #111111;
-    --panel2: #1a1a1a;
+    --panel2: #171717;
 
-    --red: #ff8c00;
-    --red-dark: #c00000;
-    --orange: #ff6a00;
-    --orange-glow: #ff8c00;
-
+    /* Primary Colors */
     --white: #ffffff;
-    --gray: #cfcfcf;
+    --black: #050505;
 
+    /* AKAONI Red */
+    --red: #ff0000;
+    --red-dark: #b30000;
+    --red-glow: rgba(255,0,0,.45);
+
+    /* Accent (ONLY tiny glow effects) */
+    --orange: #ff6a00;
+    --orange-glow: rgba(255,106,0,.35);
+
+    /* Text */
     --text: #ffffff;
+    --text-soft: #d9d9d9;
+    --text-muted: #a5a5a5;
+
+    /* Borders */
     --border: #ff0000;
+    --border-soft: rgba(255,0,0,.45);
+
+    /* Shadows */
+    --shadow: 0 0 20px rgba(255,0,0,.25);
+    --shadow-strong: 0 0 35px rgba(255,0,0,.45);
+
+    /* Glitch (ALL WHITE) */
+    --glitch-main: #ffffff;
+    --glitch-secondary: #ffffff;
+    --glitch-third: #ffffff;
+
+    /* Logo */
+    --logo: #ffffff;
+
+    /* Japanese Characters */
+    --kanji: #ffffff;
+
+    /* Icons */
+    --icon: #ffffff;
+
+    /* Buttons */
+    --button-bg: #ff0000;
+    --button-text: #ffffff;
+    --button-hover: #c00000;
+
+    /* Navigation */
+    --nav-text: #ffffff;
+    --nav-hover: #ffffff;
+    --nav-border: #ff0000;
+
+    /* Cards */
+    --card-bg: #111111;
+    --card-border: #ff0000;
+
+    /* Inputs */
+    --input-bg: #111111;
+    --input-border: #ff0000;
+    --input-text: #ffffff;
+
+    /* Selection */
+    --selection-bg: #ff0000;
+    --selection-text: #ffffff;
+
+    /* Scrollbar */
+    --scrollbar: #ff0000;
+    --scrollbar-track: #111111;
+
+    /* Small Accent Glow */
+    --accent-glow: 0 0 10px rgba(255,106,0,.35);
 }
 
 *{
