@@ -50,7 +50,7 @@ body{
     text-shadow:
         0 0 6px #ff0000,
         0 0 15px #ff0000,
-        0 0 30px #ff1a1a,
+        0 0 30px #ff0000,
         0 0 45px rgba(255,40,0,.5);
     animation:glitch 1.5s infinite;
 }
@@ -75,7 +75,7 @@ body{
 }
 
 .logo::after{
-    color:#8b0000;
+    color:#ff0000;
     left:-2px;
     opacity:.7;
     clip-path:inset(55% 0 0 0);
@@ -105,16 +105,16 @@ body{
         transform:translate(0);
         text-shadow:
     0 0 8px #ff0000,
-    0 0 18px #ff1a1a,
-    0 0 35px #ff5a00;
+    0 0 18px #ff0000,
+    0 0 35px #ff0000;
     }
 
     93%{
         transform:translate(-2px,1px);
         text-shadow:
-            -2px 0 #8b0000,
-            2px 0 #ff5a00,
-            0 0 20px #ff003c;
+            -2px 0 #ff0000,
+            2px 0 #ff0000,
+            0 0 20px #ff0000;
     }
 
     94%{
