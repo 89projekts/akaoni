@@ -625,3 +625,14 @@ padding:16px 20px;
 background:var(--panel2);
 
 border-left:3px solid var(--red
+#boot.hide{
+
+opacity:0;
+
+visibility:hidden;
+
+pointer-events:none;
+
+transition:opacity .8s ease;
+
+}
