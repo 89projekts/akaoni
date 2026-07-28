@@ -175,7 +175,19 @@ body{
 /* Header */
 
 header{
-    padding:40px 20px;
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    padding:40px;
+
+    background:transparent;
+
+    z-index:100;
 }
 
 h1{
@@ -216,27 +228,46 @@ nav button:hover{
 /* Hero */
 
 .hero{
-    height:420px;
+    position:relative;
+    height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    overflow:hidden;
+
     background:
-        radial-gradient(circle,#2b000c 0%,#050505 70%);
+        linear-gradient(
+            rgba(0,0,0,.25),
+            rgba(0,0,0,.70)
+        ),
+        url("hero-bg.webp");
+
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
 }
 
 .hero h2{
-    font-size:68px;
-    color:var(--orange);
+    font-size:72px;
+
+    color:#ffffff;
+
     text-shadow:
-        0 0 15px var(--orange),
-        0 0 35px var(--red);
+        0 0 15px #c40018,
+        0 0 35px #c40018,
+        0 0 70px #ff1a1a;
+
 }
 
 .hero p{
-    margin-top:15px;
-    color:var(--gray);
-    font-size:18px;
+    margin-top:18px;
+
+    font-size:20px;
+
+    letter-spacing:4px;
+
+    color:#dddddd;
 }
 
 /* Popup */
