@@ -593,6 +593,19 @@ transform:scale(1.03);
 filter:brightness(1);
 
 }
+.log-banner{
+    width:100%;
+    margin:0 auto 40px;
+    overflow:hidden;
+    border-radius:12px;
+    border:1px solid #222;
+}
+
+.log-banner img{
+    width:100%;
+    display:block;
+    object-fit:cover;
+}
 
 /*==========================
 EXTERNAL LINKS
