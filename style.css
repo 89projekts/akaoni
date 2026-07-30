@@ -302,9 +302,13 @@ padding:20px;
 
 font-size:3.5rem;
 
-letter-spacing:8px;
+letter-spacing:12px;
 
-color:var(--red2);
+color:var(--gray);
+
+text-shadow: 0 0 12px rgba(255,98,0,.8);
+
+opacity: 0.9;
 
 margin-bottom:20px;
 
