@@ -568,9 +568,9 @@ box-shadow:var(--shadow);
 
 display:grid;
 
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(1fr);
 
-gap:15px;
+gap:25px;
 
 }
 
