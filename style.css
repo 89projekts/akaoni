@@ -637,7 +637,27 @@ padding:16px 20px;
 
 background:var(--panel2);
 
-border-left:3px solid var(--red
+border-left:3px solid var(--red);
+
+border-radius:10px;
+
+transition:var(--transition);
+
+font-family:'Orbitron',sans-serif;
+
+letter-spacing:1px;
+
+}
+
+.links a:hover{
+
+background:#202020;
+
+border-left-color:var(--orange);
+
+padding-left:28px;
+
+}
 #boot.hide{
 
 opacity:0;
