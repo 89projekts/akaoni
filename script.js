@@ -77,3 +77,21 @@ images.forEach(image => {
     });
 
 });
+
+/*=========================================
+Accordion
+=========================================*/
+
+const accordions = document.querySelectorAll(".accordion");
+
+accordions.forEach(section=>{
+
+const header=section.querySelector(".accordion-header");
+
+header.addEventListener("click",()=>{
+
+section.classList.toggle("active");
+
+});
+
+});
