@@ -580,7 +580,7 @@ margin:0;
     content:"├";
     position:absolute;
     left:0;
-    color:var(--gray);
+    color:var(--white);
 }
 
 .mod-group li:last-child::before{
