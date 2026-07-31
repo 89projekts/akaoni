@@ -551,6 +551,45 @@ text-align:left;
 margin:0;
 
 }
+.mod-group{
+    margin-bottom:30px;
+}
+
+.mod-group h3{
+    font-family:'Orbitron',sans-serif;
+    font-size:.9rem;
+    letter-spacing:3px;
+    color:var(--orange);
+    margin-bottom:12px;
+}
+
+.mod-group ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.mod-group li{
+    position:relative;
+    padding:8px 0 8px 20px;
+    color:var(--white);
+    border-bottom:1px solid rgba(255,255,255,.05);
+}
+
+.mod-group li::before{
+    content:"├";
+    position:absolute;
+    left:0;
+    color:var(--gray);
+}
+
+.mod-group li:last-child::before{
+    content:"└";
+}
+
+.mod-group li:last-child{
+    border-bottom:none;
+}
 
 /*==========================
 VISUAL LOG
