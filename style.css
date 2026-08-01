@@ -271,18 +271,7 @@ padding:20px;
 }
 
 .access{
-
-font-size:3.5rem;
-
-letter-spacing:12px;
-
-color:var(--gray);
-
-text-shadow:0 0 12px rgba(255,98,0,.8);
-
-opacity:.9;
-
-margin:0 0 10px;
+transform:translateY(-10px);
 
 }
 
