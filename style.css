@@ -371,6 +371,10 @@ border-bottom:1px solid rgba(255,255,255,.06);
     border-bottom:none;
 }
 
+.mod-group li:last-child{
+    border-bottom:none;
+}
+
 .mod-group li{
     justify-content:space-between;
 }
@@ -503,19 +507,6 @@ pointer-events:none;
 /*==========================
 MODIFICATIONS
 ==========================*/
-
-.mod-group li span{
-    color:var(--gray);
-    letter-spacing:2px;
-    font-size:.85rem;
-    min-width:110px;
-}
-
-.mod-group li strong{
-    color:var(--white);
-    font-weight:600;
-    text-align:right;
-}
 
 /*==========================
 VISUAL LOG
