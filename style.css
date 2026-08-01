@@ -343,11 +343,13 @@ DATA + MOD UNIFIED STYLE
 }
 
 .mod-group h3{
-    font-family:'Orbitron',sans-serif;
-    font-size:.85rem;
-    letter-spacing:3px;
-    color:var(--gray);
-    margin-bottom:10px;
+
+font-family:'Orbitron',sans-serif;
+font-size:1rem;
+letter-spacing:2px;
+color:var(--white);
+margin:0 0 12px;
+
 }
 
 .mod-group ul{
@@ -357,11 +359,12 @@ DATA + MOD UNIFIED STYLE
 }
 
 .mod-group li{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 0;
-    border-bottom:1px solid rgba(255,255,255,.06);
+
+display:flex;
+align-items:center;
+padding:14px 0;
+border-bottom:1px solid rgba(255,255,255,.06);
+
 }
 
 .mod-group li:last-child{
