@@ -374,18 +374,19 @@ border-bottom:1px solid rgba(255,255,255,.06);
 }
 
 .mod-group li span{
-    flex:0 0 120px;
-    color:var(--white);
     font-size:.9rem;
     letter-spacing:2px;
+    color:var(--gray);
+    font-family:'Rajdhani',sans-serif;
 }
 
 .mod-group li strong{
-    flex:1;
-    color:var(--white);
-    font-size:.95rem;
+    font-size:1rem;
     font-weight:700;
+    color:var(--white);
     text-align:right;
+    font-family:'Rajdhani',sans-serif;
+
 }
 
 /*=================================================
