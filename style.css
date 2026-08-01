@@ -269,10 +269,9 @@ object-fit:cover;
 
 .hero-overlay{
     background:linear-gradient(
-        transparent 45%,
-        rgba(0,0,0,.75) 100%
+        rgba(0,0,0,.10),
+        rgba(0,0,0,.60)
     );
-}
 
 }
 
