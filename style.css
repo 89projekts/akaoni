@@ -372,16 +372,6 @@ DATA + MOD UNIFIED STYLE
 VEHICLE
 =================================================*/
 
-.vehicle{
-
-background:var(--panel);
-
-padding:35px;
-
-border-radius:20px;
-
-box-shadow:var(--shadow);
-
 }
 
 .terminal{
@@ -391,26 +381,6 @@ display:flex;
 flex-direction:column;
 
 gap:14px;
-
-}
-
-.row{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:14px 0;
-
-border-bottom:1px solid rgba(255,255,255,.06);
-
-}
-
-.row:last-child{
-
-border:none;
 
 }
 
@@ -514,16 +484,6 @@ pointer-events:none;
 MODIFICATIONS
 ==========================*/
 
-.build{
-
-background:var(--panel);
-
-padding:35px;
-
-border-radius:20px;
-
-box-shadow:var(--shadow);
-
 }
 
 .build-list{
@@ -586,27 +546,6 @@ text-align:left;
 
 margin:0;
 
-}
-
-.mod-group{
-    margin:28px 0;
-}
-
-.mod-group h3{
-    font-family:'Orbitron',sans-serif;
-    font-size:1rem;
-    letter-spacing:4px;
-    color:var(--white);
-    margin-bottom:14px;
-}
-
-.mod-group li{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    list-style:none;
-    padding:12px 0;
-    border-bottom:1px solid rgba(255,255,255,.06);
 }
 
 .mod-group li span{
