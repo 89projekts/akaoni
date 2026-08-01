@@ -370,20 +370,22 @@ border-bottom:1px solid rgba(255,255,255,.06);
 .mod-group li:last-child{
     border-bottom:none;
 
- .mod-group li{
+.mod-group li{
     justify-content:space-between;
 }
 
 .mod-group li span{
+    flex:0 0 120px;
     color:var(--gray);
+    font-size:.9rem;
     letter-spacing:2px;
-    font-size:.85rem;
-    min-width:110px;
 }
 
 .mod-group li strong{
+    flex:1;
     color:var(--white);
-    font-weight:600;
+    font-size:.95rem;
+    font-weight:700;
     text-align:right;
 }
 
