@@ -372,8 +372,6 @@ DATA + MOD UNIFIED STYLE
 VEHICLE
 =================================================*/
 
-}
-
 .terminal{
 
 display:flex;
@@ -483,8 +481,6 @@ pointer-events:none;
 /*==========================
 MODIFICATIONS
 ==========================*/
-
-}
 
 .build-list{
 
