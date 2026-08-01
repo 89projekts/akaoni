@@ -369,6 +369,7 @@ border-bottom:1px solid rgba(255,255,255,.06);
 
 .mod-group li:last-child{
     border-bottom:none;
+}
 
 .mod-group li{
     justify-content:space-between;
