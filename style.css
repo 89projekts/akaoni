@@ -237,22 +237,13 @@ HERO
 =================================================*/
 
 .hero{
-
-position:relative;
-
-height:65vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-overflow:hidden;
-
-border-radius:;
-
-.hero{
+    position:relative;
+    height:65vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    border-radius:20px;
     box-shadow:var(--shadow);
 
 }
@@ -269,6 +260,8 @@ object-fit:cover;
 }
 
 .hero-overlay{
+    position:absolute;
+    inset:0;
     background:linear-gradient(
         rgba(0,0,0,.10),
         rgba(0,0,0,.60)
