@@ -375,11 +375,15 @@ border-bottom:1px solid rgba(255,255,255,.06);
 }
 
 .mod-group li span{
-    flex:0 0 120px;
+    color:var(--gray);
+    letter-spacing:2px;
+    font-size:.85rem;
+    min-width:110px;
 }
 
 .mod-group li strong{
-    flex:1;
+    color:var(--white);
+    font-weight:600;
     text-align:right;
 }
 
