@@ -306,6 +306,68 @@ letter-spacing:2px;
 
 }
 
+/*=========================================
+DATA + MOD UNIFIED STYLE
+=========================================*/
+
+.vehicle,
+.build{
+    background:var(--panel);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:var(--shadow);
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.row:last-child{
+    border-bottom:none;
+}
+
+.mod-group{
+    margin:18px 0;
+}
+
+.mod-group:first-child{
+    margin-top:0;
+}
+
+.mod-group:last-child{
+    margin-bottom:0;
+}
+
+.mod-group h3{
+    font-family:'Orbitron',sans-serif;
+    font-size:.85rem;
+    letter-spacing:3px;
+    color:var(--gray);
+    margin-bottom:10px;
+}
+
+.mod-group ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.mod-group li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.mod-group li:last-child{
+    border-bottom:none;
+}
+
 /*=================================================
 VEHICLE
 =================================================*/
