@@ -805,20 +805,3 @@ opacity:1;
 padding-top:15px;
 
 }
-.accordion-content{
-
-max-height:0;
-
-overflow:hidden;
-
-opacity:0;
-
-transition:
-
-max-height .35s ease,
-
-opacity .25s ease,
-
-padding-top .25s ease;
-
-}
