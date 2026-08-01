@@ -497,8 +497,6 @@ pointer-events:none;
 MODIFICATIONS
 ==========================*/
 
-}
-
 .mod-group li span{
     color:var(--gray);
     letter-spacing:2px;
