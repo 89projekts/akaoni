@@ -252,7 +252,8 @@ overflow:hidden;
 
 border-radius:;
 
-box-shadow:none;
+.hero{
+    box-shadow:var(--shadow);
 
 }
 
