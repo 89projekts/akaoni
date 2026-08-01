@@ -369,6 +369,18 @@ border-bottom:1px solid rgba(255,255,255,.06);
 
 .mod-group li:last-child{
     border-bottom:none;
+
+ .mod-group li{
+    justify-content:space-between;
+}
+
+.mod-group li span{
+    flex:0 0 120px;
+}
+
+.mod-group li strong{
+    flex:1;
+    text-align:right;
 }
 
 /*=================================================
