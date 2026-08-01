@@ -343,7 +343,6 @@ DATA + MOD UNIFIED STYLE
 }
 
 .mod-group h3{
-
 font-family:'Orbitron',sans-serif;
 font-size:1rem;
 letter-spacing:2px;
@@ -359,16 +358,11 @@ margin:0 0 12px;
 }
 
 .mod-group li{
-
 display:flex;
 align-items:center;
 padding:14px 0;
 border-bottom:1px solid rgba(255,255,255,.06);
-
-}
-
-.mod-group li:last-child{
-    border-bottom:none;
+ 
 }
 
 .mod-group li:last-child{
@@ -494,19 +488,9 @@ opacity:0;
 
 visibility:hidden;
 
-pointer-events:none;
-
 }
 
 }
-/*=================================================
- AKAONI // VEHICLE PROFILE
- PART 2
-=================================================*/
-
-/*==========================
-MODIFICATIONS
-==========================*/
 
 /*==========================
 VISUAL LOG
