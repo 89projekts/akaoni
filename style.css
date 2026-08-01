@@ -485,66 +485,6 @@ pointer-events:none;
 MODIFICATIONS
 ==========================*/
 
-.build-list{
-
-display:flex;
-
-flex-direction:column;
-
-gap:14px;
-
-}
-
-.build-item{
-
-display:grid;
-
-grid-template-columns:180px 1fr;
-
-gap:20px;
-
-align-items:center;
-
-padding:16px 0;
-
-border-bottom:1px solid rgba(255,255,255,.06);
-
-transition:var(--transition);
-
-}
-
-.build-item:last-child{
-
-border-bottom:none;
-
-}
-
-.build-item:hover{
-
-padding-left:10px;
-
-}
-
-.build-item span{
-
-color:var(--gray);
-
-letter-spacing:2px;
-
-font-size:.9rem;
-
-}
-
-.build-item p{
-
-color:var(--white);
-
-font-weight:600;
-
-text-align:left;
-
-margin:0;
-
 }
 
 .mod-group li span{
