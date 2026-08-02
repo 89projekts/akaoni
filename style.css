@@ -633,13 +633,10 @@ text-align:center;
 }
 
 .footer-image{
-
-position:absolute;
-
-width:30%;
-height:30%;
-
-object-fit:cover;
+    width:90px;
+    height:auto;
+    margin-bottom:20px;
+    display:block;
 
 }
 
