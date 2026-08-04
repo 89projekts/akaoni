@@ -315,19 +315,7 @@ DATA + MOD UNIFIED STYLE
     background:var(--panel);
     padding:30px;
     border-radius:20px;
-    box-shadow:var(--shadow);
-}
-
-.row{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 0;
-    border-bottom:1px solid rgba(255,255,255,.06);
-}
-
-.row:last-child{
-    border-bottom:none;
+    
 }
 
 .mod-group{
@@ -355,38 +343,37 @@ margin:0 0 12px;
     list-style:none;
     margin:0;
     padding:0;
-}
 
+}
+.row,
 .mod-group li{
-display:flex;
-align-items:center;
-padding:14px 0;
-border-bottom:1px solid rgba(255,255,255,.06);
- 
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,.06);
 }
 
+.row:last-child,
 .mod-group li:last-child{
     border-bottom:none;
 }
 
-.mod-group li{
-    justify-content:space-between;
-}
-
+.row span,
 .mod-group li span{
-    font-size:.9rem;
-    letter-spacing:2px;
+    width:120px;
     color:var(--gray);
-    font-family:'Rajdhani',sans-serif;
+    letter-spacing:2px;
+    font-size:.9rem;
 }
 
+.row strong,
 .mod-group li strong{
+    flex:1;
+    text-align:right;
+    color:var(--white);
     font-size:1rem;
     font-weight:700;
-    color:var(--white);
-    text-align:right;
-    font-family:'Rajdhani',sans-serif;
-
 }
 
 /*=================================================
@@ -403,28 +390,7 @@ gap:14px;
 
 }
 
-.row span{
-
-font-size:.9rem;
-
-letter-spacing:2px;
-
-color:var(--gray);
-
-}
-
-.row strong{
-
-font-size:1rem;
-
-font-weight:700;
-
-text-align:right;
-
-}
-
-.online{
-
+.online 
 color:#3cff63;
 
 }
