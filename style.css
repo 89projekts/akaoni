@@ -335,21 +335,21 @@ margin-top:0;
 margin-bottom:0;
 }
 
-.mod-group h3{
+.mod-group h3,
+row-span{
 font-family:'Rajdhani',sans-serif;
 font-size:1rem;
 letter-spacing:2px;
 color:var(--gray);
 margin:0 0 12px;
-
 }
 
 .mod-group ul{
 list-style:none;
 margin:0;
 padding:0;
-
 }
+
 .row,
 .mod-group li{
 display:flex;
@@ -364,7 +364,7 @@ border-bottom:1px solid rgba(255,255,255,.06);
 border-bottom:none;
 }
 
-.row span,
+.row strong,
 .mod-group li span{
 width:120px;
 color:var(--gray);
@@ -381,7 +381,7 @@ font-size:1rem;
 font-weight:700;
 }
 
-.online
+.onlin{
 color:#3cff63;
 
 }
